@@ -405,7 +405,7 @@
   font-size: 20px;
   display: inline-block;
   height: auto;
-  margin-top: 7px;
+  margin-top: 4px;
   border: 0;
   font-weight: bold;
 }
@@ -415,6 +415,7 @@
 }
 
 .send:hover {
+  margin: 0;
   color: #e92a32;
   background-color: #fff;
   border: 2px solid #e92a32;
