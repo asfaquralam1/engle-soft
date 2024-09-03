@@ -7,7 +7,7 @@
 .navbar {
   background-color: #ffffff;
   position: fixed;
-  padding: 0 80px;
+  padding: 0px 80px;
   width: 100%;
   z-index: 1;
 }
@@ -33,14 +33,6 @@
   transition: all 0.5s;
 }
 
-.nav-link:current::after {
-  display: block;
-  bottom: 3px;
-  height: 3px;
-  background-color: #e92c33 !important;
-  width: 100% !important;
-}
-
 .dropdown-menu {
   display: none;
   position: absolute;
@@ -52,7 +44,7 @@
 
 .dropdown-menu a {
   color: black !important;
-  font-size: 16px !important;
+  font-size: 15px !important;
 }
 
 .dropdown .dropdown-menu a:hover {
@@ -69,8 +61,8 @@
 
 @media only screen and (max-width: 1200px) {
   /* .navbar-toggler i{
-          display: none;
-      } */
+        display: none;
+    } */
 }
 
 @media only screen and (max-width: 990px) {
